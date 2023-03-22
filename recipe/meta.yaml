@@ -1,5 +1,5 @@
 {% set name = "netgraph" %}
-{% set version = "4.12.7" %}
+{% set version = "4.12.8" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/netgraph-{{ version }}.tar.gz
-  sha256: 41ffb96034b4f02e7a0747aded60514bfb6248dc72a2ff537711491f02094f72
+  sha256: 0b150c8dbf893511915d465d40e49dc3a47a0067159cfd24c031d4c82e694fc8
 
 build:
   noarch: python
